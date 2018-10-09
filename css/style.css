@@ -1,0 +1,229 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  direction:ltr;
+  background-image: url('../images/bg-body.jpg');
+}
+
+.container{
+  width:1000px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+/***************************************** properities of head section********************************************/
+.headDiv{
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.logo{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.searchField{
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top:35px;
+}
+
+.enterBox{
+  width:310px;
+  height: auto;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 0px;
+  padding: 10px;
+  }
+
+.clear{
+  clear: both;
+}
+
+.button{
+  padding: 7px;
+  font-size:14px;
+  border-radius: 5px;
+  margin-left: -13px;
+}
+/***************************************** properities of left side start(first section)********************************************/
+.row{
+  width: 100%;
+  height: auto;
+}
+
+.leftSec{
+  width: 72%;
+  height: auto;
+  float: left;
+  border-radius: 20px;
+  background:#a99d8c;
+}
+
+.sidLeft{
+margin-top: 20px;
+}
+
+.rightBar{
+  width: 28%;
+  height: auto;
+  float: right;
+  margin-top: -60px;
+}
+
+.leftSid{
+  margin-bottom: -2px;
+}
+
+.menu ul{
+  padding:8px;
+  text-align: center;
+}
+
+.menu ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 2px solid #9b8181;
+  padding: 10px;
+  border: 2px solid transparent;
+  font-weight: bold;
+}
+
+.menu ul li a:hover,
+.menu ul li a:active{
+  background: #887964;
+  padding: 10px;
+  border: 2px solid #887964;
+}
+
+.image{
+  background-size: cover;
+  border-radius: 3px;
+  border: 1px solid white;
+  margin-left: 5px;
+}
+
+.gride{
+  width: 33.3%;
+  height: auto;
+  float: left;
+  background: #7ea98b;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+
+.first{
+  width: 32%;
+  height: auto;
+  float: left;
+}
+
+.second{
+  width: 68%;
+  height: auto;
+  float: right;
+  margin-top:30px;
+}
+
+.gride h3,
+.gride p{
+  padding: 0px;
+  margin-top: -10px;
+  font-weight:blod;
+  color: white;
+}
+
+.gride h3{
+  text-transform: uppercase;
+  /* color: black; */
+}
+
+.photo{
+  padding: 15px;
+  margin-left: -8px;
+  margin-top: 5px;
+}
+
+.gride:hover,
+.gride:active{
+  background:white;
+  color: black;
+}
+
+.imag{
+  width: 250px;
+}
+/***************************************** properities of rightBar section********************************************/
+
+.left{
+  width:35%;
+  background: #e9e4d3;
+  margin-top: 44px;
+  border-radius: 5px;
+  margin-left: 72px;
+  margin-right: 10px;
+  padding-left:1px ;
+  padding-right: 0px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.left h3{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.par{
+  text-align: center;
+  margin-left:-43px;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.links li{
+  list-style-type: none;
+}
+
+.links li a{
+  text-decoration: none;
+  color: #6c5b37;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: -30px;
+}
+
+.links li a :hover{
+  color: white;
+}
+
+.parDiv{
+  color: #6c5b37;
+  font-size: 18px;
+}
+
+.span{
+  color: #6c5b37;
+  font-size: 10px;
+}
+
+.rightBar h3{
+  color:#7d0133;
+  font-size:18px ;
+  text-transform: uppercase;
+}
